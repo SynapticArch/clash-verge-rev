@@ -19,12 +19,12 @@
        scripts-workflow/group_platforms.sh regroups, --check verifies
      HTML comments are stripped by the update dialog's sanitizer and hidden on
      GitHub, so they never reach users. -->
-## v2.5.10
+## v2.6.0
 
 <details>
 <summary><strong> 🐞 修复问题 </strong></summary>
 
-- 修复全局模式缺少 `GLOBAL` 策略组，无法单独选择全局出口
+- 修复检测更新后又发布新版时，应用内更新失败
 
 </details>
 
